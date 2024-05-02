@@ -78,7 +78,7 @@
   border: 2px solid blueviolet;
 }
 
-.chip-container{
+.chip-container {
   display: flex;
   gap: 20px;
   margin-top: 10px;
@@ -86,7 +86,7 @@
   font-family: "Jersey 15";
 }
 
-.chip-items{
+.chip-items {
   background-color: grey;
   border-radius: 8px;
   color: white;
@@ -98,6 +98,44 @@
   margin: 0px;
 }
 
-.chip-items-active{
+.chip-items-active {
   background-color: green;
+}
+
+.todo-item-container {
+  margin: 20px 0px;
+}
+
+.todo-item-left {
+  display: flex;
+  gap: 10px;
+  font-size: 20px;
+  align-items: center;
+}
+
+.todo-item-left > input[type="checkbox"] {
+  width: 30px;
+  height: 30px;
+}
+
+h5 {
+  margin: 0;
+}
+
+.todo-item-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+  margin-bottom: 10px;
+  padding: 20px 10px;
+  align-items: center;
+}
+
+.text-strikethrough {
+  text-decoration: line-through;
 }
